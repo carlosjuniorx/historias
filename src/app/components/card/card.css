@@ -23,13 +23,15 @@ p{
 
 @media (max-width: 600px) {
   .totalDivCard {
-    font-size: 70%; /* Reduz o tamanho da fonte para telas pequenas */
+    font-size: 120%;
+    height: 90vh;
   }
 }
 
 /* Estilos para telas ainda menores */
 @media (max-width: 400px) {
   .totalDivCard {
-    font-size: 30%; /* Reduz ainda mais o tamanho da fonte para telas ainda menores */
+    font-size: 100%; /* Reduz ainda mais o tamanho da fonte para telas ainda menores */
+    height: 90vh;
   }
 }
